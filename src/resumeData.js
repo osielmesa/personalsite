@@ -6,7 +6,9 @@ let code = `
 
 let resumeData = {
     "name": "Osiel Lima Díaz",
-    "role": "Software Developer",
+    "role": "Software Engineer",
+    "avatarURL":"images/avatar5.jpg",
+    "contactImageURL":"images/me_fishing_small.jpg",
     "code": code,
     "email":"osielmesa@gmail.com",
     "skypeid": "Your skypeid",
@@ -21,7 +23,7 @@ let resumeData = {
           "name":"skype",
           "url":"https://join.skype.com/invite/wzX9qDDT2bcO",
           "className":"fa fa-skype"
-        }
+        },
       ],
     "aboutme":"I’m a software developer with 7 years of experience in both web and mobile apps. I have specialized in front-end development especially in React Native, android and iOS (swift) but I have also worked with React and Firebase (back-end), currently diving deeper into ARCore (android) from Google, Amazon Web Services and aws-amplify.\n" +
       "\n" +
@@ -29,7 +31,7 @@ let resumeData = {
       "\n" +
       "Colleagues know me as a highly creative developer who can always be trusted to propose a new approach. But I know that user experience and good performance comes first, so I never try to impose my ideas on others. I can (and often do) work well alone, but I’m at my best collaborating with others.",
     "address":"Serbia",
-    "website":"https://rbhatia46.github.io",
+    "website":"",
     "education":[
       {
         "UniversityName":"Universidad de las Ciencias Informáticas",
@@ -49,6 +51,7 @@ let resumeData = {
         "YearOfLeaving":"2016",
         "country":"Cuba",
         "city":"Havana",
+        "link":"https://www.uci.cu/",
         "Achievements":"Cuba. Part of my job was when I was still a student, based on Android. After graduating, I was involved in web development using Symfony framework, javascript, html and css."
       },
       {
@@ -58,6 +61,7 @@ let resumeData = {
         "YearOfLeaving":"2018",
         "country":"Cuba",
         "city":"Holguin",
+        "link":"http://multiversoft.com/",
         "Achievements":"I was involved on development of a real time platform in the cloud using Swift, Android, Java, Kubernetes, Google Cloud Platform, PostgreSQL and RabbitMQ, mainly focused on iOS app development using Swift."
       },
       {
@@ -67,9 +71,20 @@ let resumeData = {
         "YearOfLeaving":"2019",
         "country":"Serbia",
         "city":"Belgrade",
-        "Achievements":"Serbia. After my relocation to Belgrade, Serbia I focused on the development of a real-time platform in the cloud, acquiring experience in the development of mobile platforms with React Native, React, Redux and Firebase. \n" +
+        "link":"https://votephone.com/",
+        "Achievements":"After my relocation to Belgrade, Serbia I focused on the development of a real-time platform in the cloud, acquiring experience in the development of mobile platforms with React Native, React, Redux and Firebase. \n" +
           "\n" +
           "Currently, I am developing a new version of the platform with React Native, React, Redux and Firebase. I'm in charge of maintaining the previous version of the platform regarding mobile applications using iOS (Swift) and Android."
+      },
+      {
+        "CompanyName":"Freelancer",
+        "specialization":"Freelance Android Software Engineer",
+        "MonthOfLeaving":"Actual",
+        "YearOfLeaving":"2019",
+        "country":"Netherlands",
+        "city":"Amsterdam",
+        "link":"",
+        "Achievements":"Augmented reality camera android library. Build and integration with two android apps. "
       }
     ],
     "skillsDescription":"Main skills",
@@ -103,12 +118,6 @@ let resumeData = {
         "link":"https://itunes.apple.com/es/app/votephone/id1148501590?l=en&mt=8"
       },
       {
-        "name":"Extractory - Augmented Reality",
-        "description":"Android app (ARCore and Sceneform).",
-        "imgurl":"https://lh3.googleusercontent.com/-nxneqGDD2iYZHC8qoRKtu8SIJWgvRcJlgVeEkXnFbnj5zi7wZjDgcJKZQuLA1ppnV8=s360-rw",
-        "link":"https://play.google.com/store/apps/details?id=com.freebird.extractory"
-      },
-      {
         "name":"Votephone",
         "description":"React Native app (Newer version of android and iOS app but with social network approach). *It is not a public repo. It is not in production yet.",
         "imgurl":"images/portfolio/votephone_rn.png",
@@ -131,6 +140,18 @@ let resumeData = {
         "description":"React Native app made in approximately 8 hours for a coding test. This is an example project. It works but only with a docker image as backend provided by judges of the test at the moment.",
         "imgurl":"images/portfolio/origami.jpg",
         "link":"https://github.com/osielmesa/hotelfinder"
+      },
+      {
+        "name":"Personal web site",
+        "description":"Personal web site built with React. You can clone or download this site code for free.",
+        "imgurl":"images/portfolio/captura_site.png",
+        "link":"https://github.com/osielmesa/hotelfinder"
+      },
+      {
+        "name":"Android app and library - Augmented Reality",
+        "description":"Android app and library using ARCore with Sceneform.",
+        "imgurl":"images/portfolio/coffee.jpg",
+        "link":""
       }
     ],
   "portfolio_contributors":[
@@ -141,20 +162,19 @@ let resumeData = {
       "link":"https://play.google.com/store/apps/details?id=com.multiversoft.votephone&hl=en_US"
     },
     {
-      "name":"Yuge",
-      "description":"Android app",
-      "imgurl":"https://lh3.googleusercontent.com/M-E_443eFToRizkn6hhFOTJ_bc-HN9nj22cOKJV2jKGT2v3Y8Qr_CDafsmeYMAxtG0c=s360-rw",
-      "link":"https://play.google.com/store/apps/details?id=com.goyuge.android"
+      "name":"Android app 2 - Augmented Reality",
+      "description":"Android app 2. Integration of AR Camera library on it.",
+      "imgurl":"images/portfolio/coffee.jpg",
+      "link":""
     },
   ],
     "testimonials":[
       {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
-      },
-      {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
+        "description":"Osiel Lima Díaz worked for me as a Software Engineer from April, 2016 to March 1, 2019. His responsibilities included analysis, design and developing of complex Mobile and Web applications using a variety of technologies. \n" +
+          "During the course of his employment, Osiel proved himself to be a dependable employee and a hard worker with solid problem solving and technical skills. He completes the work assigned to him on time. Osiel not only met deadlines but also explains his solutions in a way that non- experts can easily understand. \n" +
+          "Osiel takes his work very seriously and regularly enrolled in online courses to stay abreast of the newest developments in programming. Although Osiel is a fast-learner, he is very careful and cautious about his work. That means he repeatedly runs checks on his programs before making them public to ensure there aren't any hiccups. \n" +
+          "Osiel would be an asset to have on any team. He pitches innovative ideas at company meetings but also listens to what others have to say. Overall, Osiel is a talented, hard-working employee, and I am sad to see him leave.\n",
+        "name":"Noriel Pavón - Founder and CEO, Multiversoft SL"
       }
     ]
   }
