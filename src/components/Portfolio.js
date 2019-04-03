@@ -11,10 +11,10 @@ export default class Porfolio extends Component {
           {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
               return(
-                <div className="columns portfolio-item">
+                <div className="columns portfolio-item" style={{width:300}}>
                   <div className="item-wrap">
                     <a href={item.link} target="_blank">
-                      <img src={`${item.imgurl}`} className="item-img" style={{maxHeight:300}} />
+                      <img src={`${item.imgurl}`} className="item-img" style={styles.img} />
                       <div className="overlay">
                         <div className="portfolio-item-meta">
                           <h5>{item.name}</h5>
@@ -36,7 +36,7 @@ export default class Porfolio extends Component {
                   <div className="columns portfolio-item">
                     <div className="item-wrap">
                       <a href={item.link} target="_blank">
-                        <img src={`${item.imgurl}`} className="item-img" style={{maxHeight:200}}/>
+                        <img src={`${item.imgurl}`} className="item-img" style={styles.img}/>
                         <div className="overlay">
                           <div className="portfolio-item-meta">
                             <h5>{item.name}</h5>
@@ -54,5 +54,13 @@ export default class Porfolio extends Component {
       </div>
   </section>
         );
+  }
+}
+
+const styles = {
+  img: {
+    objectFit:'contain',
+    height:250,
+    width:300
   }
 }
