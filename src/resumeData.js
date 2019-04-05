@@ -25,11 +25,17 @@ let resumeData = {
           "className":"fa fa-skype"
         },
       ],
-    "aboutme":"I’m a software developer with 7 years of experience in both web and mobile apps. I have specialized in front-end development especially in React Native, android and iOS (swift) but I have also worked with React and Firebase (back-end), currently diving deeper into ARCore (android) from Google, Amazon Web Services and aws-amplify.\n" +
+    "aboutme":"Passionate software developer with 7+ years of experience in web and mobile apps. \n" +
       "\n" +
-      "Recently, I publish a small android (ARCore) app using an AR camera library built by myself. In this role, I was focused on decreasing consumption time of resources and creating a great user experience.\n" +
+      "I enjoy front-end development and do not see better line of work for me, especially in React Native, android and iOS (swift) but also cover React and Firebase (back-end).\n" +
       "\n" +
-      "Colleagues know me as a highly creative developer who can always be trusted to propose a new approach. But I know that user experience and good performance comes first, so I never try to impose my ideas on others. I can (and often do) work well alone, but I’m at my best collaborating with others.",
+      "Currently diving deeper into ARCore (android) from Google, Amazon Web Services and aws-amplify.\n" +
+      "\n" +
+      "Recently, I publish a small android (ARCore) app using an AR camera library built by myself. In this role, I was focused on decreasing consumption time of resources and creating a great user experience. \n" +
+      "\n" +
+      "Colleagues know me as a highly creative developer who can always be trusted to propose a new approach. But I know that user experience and good performance comes first, so I never try to impose my ideas on others. \n" +
+      "\n" +
+      "I can (and often do) work well alone, but I’m at my best collaborating with others.",
     "address":"Serbia",
     "website":"",
     "education":[
@@ -43,6 +49,22 @@ let resumeData = {
           "Engineering in Computer Science and Master in Management of Computer Projects, certified by the National Accreditation Board. Engineers in Computer Science with a high level of specialization in the work with the Information and communication technologies."
       }
     ],
+    "certificates":[
+    {
+      "entityName":"VanHack",
+      "certificateName":"Verified English status: Can communicate",
+      "issuedDate":"FEB 2019",
+      "credentialURL":"",
+      "credentialId":""
+    },
+      {
+        "entityName":"Udemy",
+        "certificateName":"React Native: Advanced Concepts",
+        "issuedDate":"JAN 2019",
+        "credentialId":"UC-8DO7S2TB",
+        "credentialURL":"http://ude.my/UC-8DO7S2TB",
+      }
+  ],
     "work":[
       {
         "CompanyName":"Universidad de las Ciencias Informáticas",
@@ -52,7 +74,9 @@ let resumeData = {
         "country":"Cuba",
         "city":"Havana",
         "link":"https://www.uci.cu/",
-        "Achievements":"Cuba. Part of my job was when I was still a student, based on Android. After graduating, I was involved in web development using Symfony framework, javascript, html and css."
+        "Achievements":"Cuba. Part of my job was when I was still a student, based on Android. I successfully build a starter kit for android and offline maps using Open Street Maps.\n" +
+          "\n" +
+          "After graduating, I achieved web development using Symfony2 framework, Javascript, Html and Css in a content management system project."
       },
       {
         "CompanyName":"Multiversoft SL",
@@ -62,7 +86,7 @@ let resumeData = {
         "country":"Cuba",
         "city":"Holguin",
         "link":"http://multiversoft.com/",
-        "Achievements":"I was involved on development of a real time platform in the cloud using Swift, Android, Java, Kubernetes, Google Cloud Platform, PostgreSQL and RabbitMQ, mainly focused on iOS app development using Swift."
+        "Achievements":"The team and me bring to production a real time platform in the cloud using Swift, Android, Java, Kubernetes, Google Cloud Platform, PostgreSQL and RabbitMQ, mainly focused on iOS app development using Swift."
       },
       {
         "CompanyName":"Multiversoft SL",
@@ -74,17 +98,19 @@ let resumeData = {
         "link":"https://votephone.com/",
         "Achievements":"After my relocation to Belgrade, Serbia I focused on the development of a real-time platform in the cloud, acquiring experience in the development of mobile platforms with React Native, React, Redux and Firebase. \n" +
           "\n" +
-          "Currently, I am developing a new version of the platform with React Native, React, Redux and Firebase. I'm in charge of maintaining the previous version of the platform regarding mobile applications using iOS (Swift) and Android."
+          "I developed from scratch a new version of the Votephone frontend platform with React Native, React, Redux and Firebase. \n" +
+          "\n" +
+          "I successfully maintained and versioned the previous version of the platform regarding mobile applications using iOS (Swift) and Android."
       },
       {
         "CompanyName":"Freelancer",
         "specialization":"Freelance Android Software Engineer",
         "MonthOfLeaving":"Actual",
         "YearOfLeaving":"2019",
-        "country":"Netherlands",
-        "city":"Amsterdam",
+        "country":"Serbia",
+        "city":"Belgrade",
         "link":"",
-        "Achievements":"Augmented reality camera android library. Build and integration with two android apps. "
+        "Achievements":"Build an augmented reality camera android library and integration with two android apps for a company based in Amsterdam."
       }
     ],
     "skillsDescription":"Main skills",
@@ -110,11 +136,21 @@ let resumeData = {
         "percent": "75%"
       }
     ],
+    "languages":[
+      {
+        "languageName":"Spanish",
+        "percent": "98%"
+      },
+      {
+        "languageName":"English",
+        "percent": "70%"
+      }
+    ],
     "portfolio":[
       {
         "name":"Votephone",
         "description":"iOS app.",
-        "imgurl":"https://lh3.googleusercontent.com/O-4UAWOX-zy6-wyufRWWHGTU-Shdcrw9O3VvNpL3QCq4D6eYEpEweqF4cbcIlLz6WqOP=s360-rw",
+        "imgurl":"images/portfolio/votephone.png",
         "link":"https://itunes.apple.com/es/app/votephone/id1148501590?l=en&mt=8"
       },
       {
@@ -158,7 +194,7 @@ let resumeData = {
     {
       "name":"Votephone",
       "description":"Android app",
-      "imgurl":"https://lh3.googleusercontent.com/O-4UAWOX-zy6-wyufRWWHGTU-Shdcrw9O3VvNpL3QCq4D6eYEpEweqF4cbcIlLz6WqOP=s360-rw",
+      "imgurl":"images/portfolio/votephone.png",
       "link":"https://play.google.com/store/apps/details?id=com.multiversoft.votephone&hl=en_US"
     },
     {
