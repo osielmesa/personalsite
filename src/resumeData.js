@@ -105,16 +105,50 @@ let resumeData = {
       {
         "CompanyName":"Freelancer",
         "specialization":"Freelance Android Software Engineer",
-        "MonthOfLeaving":"Actual",
+        "MonthOfLeaving":"Jun",
         "YearOfLeaving":"2019",
         "country":"Serbia",
         "city":"Belgrade",
         "link":"",
         "Achievements":"Build an augmented reality camera android library and integration with two android apps for a company based in Amsterdam."
+      },
+      {
+        "CompanyName":"Marvintech d.o.o",
+        "specialization":"Senior Frontend Developer",
+        "MonthOfLeaving":"Sep",
+        "YearOfLeaving":"2019",
+        "country":"Serbia",
+        "city":"Belgrade",
+        "link":"https://www.linkedin.com/company/marvintech/",
+        "Achievements":"Building slot machines games for the online market using Javascript and PixiJS."
+      },
+      {
+        "CompanyName":"Marvintech d.o.o",
+        "specialization":"Project Manager",
+        "MonthOfLeaving":"Feb",
+        "YearOfLeaving":"2020",
+        "country":"Serbia",
+        "city":"Belgrade",
+        "link":"https://www.linkedin.com/company/marvintech/",
+        "Achievements":"Creating slot machines games in four projects, leading graphics and developers’ teams. Creative process and decision making always on the agenda.."
+      },
+      {
+        "CompanyName":"Marvintech d.o.o",
+        "specialization":"Senior Frontend Developer",
+        "MonthOfLeaving":"Actual",
+        "YearOfLeaving":"2019",
+        "country":"Serbia",
+        "city":"Belgrade",
+        "link":"https://www.linkedin.com/company/marvintech/",
+        "Achievements":"Building slot machines games for the online market using Javascript and PixiJS."
       }
     ],
     "skillsDescription":"Main skills",
     "skills":[
+      {
+        "skillname":"Pixi.js + javascript",
+        "percent": "90%"
+      },
       {
         "skillname":"React Native",
         "percent": "90%"
@@ -186,8 +220,8 @@ let resumeData = {
       {
         "name":"Android app and library - Augmented Reality",
         "description":"Android app and library using ARCore with Sceneform.",
-        "imgurl":"images/portfolio/coffee.jpg",
-        "link":""
+        "imgurl":"images/portfolio/ar.webp",
+        "link":"https://play.google.com/store/apps/details?id=com.yuge.ar&hl=es_419"
       }
     ],
   "portfolio_contributors":[
@@ -198,11 +232,37 @@ let resumeData = {
       "link":"https://play.google.com/store/apps/details?id=com.multiversoft.votephone&hl=en_US"
     },
     {
-      "name":"Android app 2 - Augmented Reality",
-      "description":"Android app 2. Integration of AR Camera library on it.",
-      "imgurl":"images/portfolio/coffee.jpg",
-      "link":""
+      "name":"Yuge - Augmented Reality",
+      "description":"Yuge-AR. Integration of AR Camera library on it.",
+      "imgurl":"images/portfolio/yuge.webp",
+      "link":"https://play.google.com/store/apps/details?id=com.yuge.ar&hl=es_419"
     },
+    {
+      "name":"Yuge",
+      "description":"Yuge. Versions releasing of the app.",
+      "imgurl":"images/portfolio/yuge.webp",
+      "link":"https://play.google.com/store/apps/details?id=com.goyuge.android&hl=es_419"
+    },
+    {
+      "name":"Roxy Bar",
+      "description":"Roxy bar is an online slot machine game that use very simple graphics but modern concepts and techniques in the slot market. Roxy Bar is a cult title in the industry. Standing out with a title so simple but so inflated turns out to be difficult, with RoxyBar we have found a great personality, because details and standing out always make the difference RoxyBar offers\n" +
+        " \n" +
+        "exciting and emotional bonus situations. The specially created music makes this game really fun. Created for online, land based, smartphone platforms RoxyBar is owned by the SevenABC group. All rights reserved © 2020.",
+      "imgurl":"images/portfolio/roxy.png",
+      "link":"http://81.29.148.18/osiel/demos/roxy/"
+    },
+    {
+      "name":"Beba Monster",
+      "description":"BebaMonsters is a video slot born from the demand of the Italian market. Characteristic and funny characters of this Videoslot offer exciting and emotional bonus situations. The specially created music makes this game really fun. Created for online, land based and smartphone platforms. Beba Monsters is owned by the SevenABC group. All rights reserved © 2020.",
+      "imgurl":"images/portfolio/beba.png",
+      "link":"http://81.29.148.18/osiel/demos/monster/"
+    },
+    {
+      "name":"Arcadia",
+      "description":"Arcadia VideoSlot was born from an idea of the past, recalling old arcade video games and presenting them in a modern key. Created for young, online and mobile audience, Arcadia offers interesting and unpredictable bonus situations. The specially created music makes this game really different. Created for online, land based and smartphone platforms. Arcadia is owned by the SevenABC group. All rights reserved © 2020.",
+      "imgurl":"images/portfolio/arcadia.png",
+      "link":"http://81.29.148.18/osiel/demos/arcadia/"
+    }
   ],
     "testimonials":[
       {
