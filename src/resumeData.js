@@ -1,5 +1,5 @@
 let code = `
-      if(footing || skate || fishing || hangOutWithFriends){
+      if(skate || fishing || danceSalsa || hangOutWithFriends){
         this.goOutInMyFreeTime()
       }
     `
