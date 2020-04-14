@@ -1,35 +1,35 @@
 {
-	"providers": {
-		"awscloudformation": {
-			"AuthRoleName": "personalsite-20190401144544-authRole",
-			"UnauthRoleArn": "arn:aws:iam::722507554190:role/personalsite-20190401144544-unauthRole",
-			"AuthRoleArn": "arn:aws:iam::722507554190:role/personalsite-20190401144544-authRole",
-			"Region": "us-east-1",
-			"DeploymentBucketName": "personalsite-20190401144544-deployment",
-			"UnauthRoleName": "personalsite-20190401144544-unauthRole",
-			"StackName": "personalsite-20190401144544",
-			"StackId": "arn:aws:cloudformation:us-east-1:722507554190:stack/personalsite-20190401144544/12da6010-547c-11e9-89e2-0ec11b444504"
-		}
-	},
-	"hosting": {
-		"S3AndCloudFront": {
-			"service": "S3AndCloudFront",
-			"providerPlugin": "awscloudformation",
-			"providerMetadata": {
-				"s3TemplateURL": "https://s3.amazonaws.com/personalsite-20190401144544-deployment/amplify-cfn-templates/hosting/template.json",
-				"logicalId": "hostingS3AndCloudFront"
-			},
-			"lastPushTimeStamp": "2019-04-01T12:59:40.025Z",
-			"output": {
-				"CloudFrontSecureURL": "https://d14kc8zipn9pqw.cloudfront.net",
-				"S3BucketSecureURL": "https://personalsite-20190401144922-hostingbucket-master.s3.amazonaws.com",
-				"WebsiteURL": "http://personalsite-20190401144922-hostingbucket-master.s3-website-us-east-1.amazonaws.com",
-				"CloudFrontDistributionID": "E175TX2MFIR343",
-				"Region": "us-east-1",
-				"HostingBucketName": "personalsite-20190401144922-hostingbucket-master",
-				"CloudFrontDomainName": "d14kc8zipn9pqw.cloudfront.net"
-			},
-			"lastPushDirHash": "/r/Z2TtXMfbtvS79iB+opVbtCUY="
-		}
-	}
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "personalsite-20190401144544-authRole",
+            "UnauthRoleArn": "arn:aws:iam::722507554190:role/personalsite-20190401144544-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::722507554190:role/personalsite-20190401144544-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "personalsite-20190401144544-deployment",
+            "UnauthRoleName": "personalsite-20190401144544-unauthRole",
+            "StackName": "personalsite-20190401144544",
+            "StackId": "arn:aws:cloudformation:us-east-1:722507554190:stack/personalsite-20190401144544/12da6010-547c-11e9-89e2-0ec11b444504"
+        }
+    },
+    "hosting": {
+        "S3AndCloudFront": {
+            "service": "S3AndCloudFront",
+            "providerPlugin": "awscloudformation",
+            "providerMetadata": {
+                "s3TemplateURL": "https://s3.amazonaws.com/personalsite-20190401144544-deployment/amplify-cfn-templates/hosting/template.json",
+                "logicalId": "hostingS3AndCloudFront"
+            },
+            "lastPushTimeStamp": "2020-04-14T20:23:56.832Z",
+            "output": {
+                "CloudFrontSecureURL": "https://d14kc8zipn9pqw.cloudfront.net",
+                "S3BucketSecureURL": "https://personalsite-20190401144922-hostingbucket-master.s3.amazonaws.com",
+                "WebsiteURL": "http://personalsite-20190401144922-hostingbucket-master.s3-website-us-east-1.amazonaws.com",
+                "CloudFrontDistributionID": "E175TX2MFIR343",
+                "Region": "us-east-1",
+                "HostingBucketName": "personalsite-20190401144922-hostingbucket-master",
+                "CloudFrontDomainName": "d14kc8zipn9pqw.cloudfront.net"
+            },
+            "lastPushDirHash": "/r/Z2TtXMfbtvS79iB+opVbtCUY="
+        }
+    }
 }

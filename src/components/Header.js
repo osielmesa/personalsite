@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import pdf from '../CV - Osiel-Lima-Diaz.pdf'
 export default class Header extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -16,6 +17,7 @@ export default class Header extends Component {
                <li><a className="smoothscroll" href="#portfolio">Works</a></li>
                <li><a className="smoothscroll" href="#testimonials">Testimonials</a></li>
                <li><a className="smoothscroll" href="#contact">Contact</a></li>
+              <li><a href={pdf}>Curriculum Vitae</a></li>
             </ul>
          </nav>
 
@@ -41,9 +43,9 @@ export default class Header extends Component {
                           }
                     )
                   }
-                 <li key={'email'}>
-                   <a href={"mailto:"+resumeData.email+"?subject=Work or suggestions"}>
-                     <i className={"fa fa-envelope"}/>
+                 <li key={'cv'}>
+                   <a href={pdf}>
+                     <i className={"fa fa-file-text"}/>
                    </a>
                  </li>
                </ul>

@@ -1,0 +1,5 @@
+npm run build   //build new changes
+amplify push    //update latest resource configuration in the backend
+amplify publish -c   //publish new changes to backend  -c means send CloudFront invalidation request. (update cloudfront cache for clients)
+
+if you face error about files not found edit local-env-info.json inside amplify/.config folder in the root of the project
