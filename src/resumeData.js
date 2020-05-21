@@ -30,7 +30,7 @@ let resumeData = {
       "className":"fa fa-envelope"
     }
   ],
-  "aboutme":"Passionate software developer with 7+ years of experience in web and mobile apps. \n" +
+  "aboutme":"Software developer with 7+ years of experience in web and mobile apps. \n" +
     "\n" +
     "I enjoy front-end development and do not see better line of work for me, especially in React Native, android and iOS (swift) but also cover React and Firebase (back-end).\n" +
     "\n" +
@@ -99,10 +99,24 @@ let resumeData = {
     },
     {
       "entityName":"Udemy",
+      "certificateName":"Intro to React Native build a cryptocurrency tracker app online",
+      "issuedDate":"NOV 2019",
+      "credentialId":"UC-O1NMD95Z",
+      "credentialURL":"https://www.udemy.com/certificate/UC-O1NMD95Z/",
+    },
+    {
+      "entityName":"Udemy",
       "certificateName":"Introduction to Project Management",
       "issuedDate":"FEB 2020",
       "credentialId":"UC-df8e9b75-8b75-4d99-83ff-ef2520298480",
       "credentialURL":"https://www.udemy.com/certificate/UC-df8e9b75-8b75-4d99-83ff-ef2520298480/",
+    },
+    {
+      "entityName":"Udemy",
+      "certificateName":"Agile Scrum Course: Scrum Fundamentals | Scrum Certification",
+      "issuedDate":"MAY 2020",
+      "credentialId":"UC-6af2dbc6-d86a-4e34-adcc-36253f8dc21f",
+      "credentialURL":"https://www.udemy.com/certificate/UC-6af2dbc6-d86a-4e34-adcc-36253f8dc21f/",
     }
   ],
   "work":[
@@ -218,8 +232,8 @@ let resumeData = {
       "percent": "75%"
     },
     {
-      "skillname":"Symfony2",
-      "percent": "60%"
+      "skillname":"Scrum",
+      "percent": "70%"
     }
     ,
     {

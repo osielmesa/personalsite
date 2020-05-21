@@ -19,7 +19,7 @@
                 "s3TemplateURL": "https://s3.amazonaws.com/personalsite-20190401144544-deployment/amplify-cfn-templates/hosting/template.json",
                 "logicalId": "hostingS3AndCloudFront"
             },
-            "lastPushTimeStamp": "2020-04-14T20:23:56.832Z",
+            "lastPushTimeStamp": "2020-05-21T10:59:48.529Z",
             "output": {
                 "CloudFrontSecureURL": "https://d14kc8zipn9pqw.cloudfront.net",
                 "S3BucketSecureURL": "https://personalsite-20190401144922-hostingbucket-master.s3.amazonaws.com",
