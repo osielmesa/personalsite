@@ -4,45 +4,45 @@ export default class About extends Component {
     let resumeData = this.props.resumeData;
     return (
       <section id="about">
-         <div className="row">
+        <div className="row">
 
-            <div className="three columns">
+          <div className="three columns">
 
-               <img className="profile-pic"  src={resumeData.avatarURL} alt="" />
+            <img className="profile-pic"  src={resumeData.avatarURL} alt="" />
 
-            </div>
+          </div>
 
-            <div className="nine columns main-col">
+          <div className="nine columns main-col">
 
-               <h2>About Me</h2>
-               <p>
-               {
-                 resumeData.aboutme
-               }
-               </p>
+            <h2>About Me</h2>
+            <p>
+              {
+                resumeData.aboutme
+              }
+            </p>
 
-               <div className="row">
+            <div className="row">
 
-                  <div className="columns contact-details">
+              <div className="columns contact-details">
 
-                  <h2>Contact Details</h2>
-                  <p className="address">
-       						<span>{resumeData.name}</span>
-                     <br></br>
-       						   <span>
+                <h2>Contact Details</h2>
+                <p className="address">
+                  <span>{resumeData.name}</span>
+                  <br></br>
+                  <span>
                      {resumeData.address}
                     </span>
-                    <br></br>
-                    <span>
+                  <br></br>
+                  <span>
                       <a href={"mailto:"+resumeData.email+"?subject=Work or suggestions"}>
                       {resumeData.email}
                       </a>
                     </span>
-       					   </p>
-                  </div>
-               </div>
+                </p>
+              </div>
             </div>
-         </div>
+          </div>
+        </div>
       </section>
     );
   }

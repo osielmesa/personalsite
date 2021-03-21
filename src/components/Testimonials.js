@@ -18,7 +18,7 @@ export default class Testimonials extends Component {
                         <li>
                           <blockquote>
                             <p>
-                            {item.description}
+                              {item.description}
                             </p>
                             <cite>{item.name}</cite>
                           </blockquote>
@@ -32,6 +32,6 @@ export default class Testimonials extends Component {
           </div> {/* row ends */}
         </div>  {/* text-container ends */}
       </section>
-        );
+    );
   }
 }
