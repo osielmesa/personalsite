@@ -123,8 +123,8 @@ let resumeData = {
     {
       "CompanyName":"Universidad de las Ciencias Informáticas",
       "specialization":"Software developer",
-      "MonthOfLeaving":"Mar",
-      "YearOfLeaving":"2016",
+      "MonthOfLeaving":"Dec 2011 -",
+      "YearOfLeaving":"Mar 2016",
       "country":"Cuba",
       "city":"Havana",
       "link":"https://www.uci.cu/",
@@ -135,8 +135,8 @@ let resumeData = {
     {
       "CompanyName":"Multiversoft SL",
       "specialization":"Senior Software Engineer",
-      "MonthOfLeaving":"Jan",
-      "YearOfLeaving":"2018",
+      "MonthOfLeaving":"Apr 2016 -",
+      "YearOfLeaving":"Jan 2018",
       "country":"Cuba",
       "city":"Holguin",
       "link":"http://multiversoft.com/",
@@ -145,8 +145,8 @@ let resumeData = {
     {
       "CompanyName":"Multiversoft SL",
       "specialization":"Full Stack Software Engineer",
-      "MonthOfLeaving":"Mar",
-      "YearOfLeaving":"2019",
+      "MonthOfLeaving":"Jan 2018 -",
+      "YearOfLeaving":"Apr 2019",
       "country":"Serbia",
       "city":"Belgrade",
       "link":"https://votephone.com/",
@@ -159,8 +159,8 @@ let resumeData = {
     {
       "CompanyName":"Freelancer",
       "specialization":"Freelance Android Software Engineer",
-      "MonthOfLeaving":"Jun",
-      "YearOfLeaving":"2019",
+      "MonthOfLeaving":"Apr 2019 -",
+      "YearOfLeaving":"May 2019",
       "country":"Serbia",
       "city":"Belgrade",
       "link":"",
@@ -169,8 +169,8 @@ let resumeData = {
     {
       "CompanyName":"Marvintech d.o.o",
       "specialization":"Senior Frontend Developer",
-      "MonthOfLeaving":"Sep",
-      "YearOfLeaving":"2019",
+      "MonthOfLeaving":"May 2019 -",
+      "YearOfLeaving":"Sep 2019",
       "country":"Serbia",
       "city":"Belgrade",
       "link":"https://www.linkedin.com/company/marvintech/",
@@ -179,8 +179,8 @@ let resumeData = {
     {
       "CompanyName":"Marvintech d.o.o",
       "specialization":"Project Manager",
-      "MonthOfLeaving":"Feb",
-      "YearOfLeaving":"2020",
+      "MonthOfLeaving":"Sep 2019 -",
+      "YearOfLeaving":"Feb 2020",
       "country":"Serbia",
       "city":"Belgrade",
       "link":"https://www.linkedin.com/company/marvintech/",
@@ -189,12 +189,22 @@ let resumeData = {
     {
       "CompanyName":"Marvintech d.o.o",
       "specialization":"Senior Frontend Developer",
-      "MonthOfLeaving":"Actual",
-      "YearOfLeaving":"2019",
+      "MonthOfLeaving":"Feb 2020 -",
+      "YearOfLeaving":"Aug 2020",
       "country":"Serbia",
       "city":"Belgrade",
       "link":"https://www.linkedin.com/company/marvintech/",
       "Achievements":"Building slot machines games for the online market using Javascript and PixiJS."
+    },
+    {
+      "CompanyName":"Paycor",
+      "specialization":"Senior Frontend Developer",
+      "MonthOfLeaving":"Sep 2020 -",
+      "YearOfLeaving":"Actual",
+      "country":"Serbia",
+      "city":"Belgrade",
+      "link":"https://www.paycor.com/ximble",
+      "Achievements":"Facing project solutions in React (inmutable.js, redux, redux-saga, jest, redux-saga-test-plan, webdriver.io), Android and iOS. Acting as Scrum Master as second role in the team."
     }
   ],
   "skillsDescription":"Main skills",
